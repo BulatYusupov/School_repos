@@ -1,1 +1,37 @@
+.header {
+  color: #104B72;
+  background-color: white;
+  float: none;
+  border: none;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  background-image: none;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  width: 33%;
+  height: 70px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition-duration: 0.5s;
+}
+
+article {
+  margin-left: 100px;
+  font-family: sans-serif;
+  text-align: left;
+  color: #15436B;
+}
+
+article[title] {
+  margin-right: 100px;
+  font-family: sans-serif;
+  background-color: white;
+  text-align: right;
+  color: #15436B;
+}
 
