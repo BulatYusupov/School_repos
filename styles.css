@@ -1,37 +1,10 @@
-.header {
-  color: #104B72;
-  background-color: white;
-  float: none;
-  border: none;
-  margin-left: 150px;
-  margin-bottom: 50px;
-  background-image: none;
-  text-align: center;
-  display: inline-block;
-  padding: 10px 20px;
-  box-sizing: border-box;
-  width: 33%;
-  height: 70px;
-  font-family: sans-serif;
-  font-size: 18px;
-  line-height: 28px;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition-duration: 0.5s;
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap');
+
+.wrap {
+font-family: 'Red Rose', cursive;
 }
 
-article {
-  margin-left: 100px;
-  font-family: sans-serif;
-  text-align: left;
-  color: #15436B;
+.inner {
+	font-family: 'Inconsolata', monospace;
 }
-
-article[title] {
-  margin-right: 100px;
-  font-family: sans-serif;
-  background-color: white;
-  text-align: right;
-  color: #15436B;
-}
-
